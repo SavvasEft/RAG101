@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rag101"
+version = "0.1.0"
+description = "A system that allows the user to talk with one or more documents and gather insights efficiently."
+authors = ["SavvasEft <'savvas.eftychis@gmail.com'>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pymongo = "^4.10.1"
+ipykernel = "^6.29.5"
+sentence-transformers = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
